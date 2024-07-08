@@ -26,4 +26,4 @@ If you first run the program, you see that the files *catalog.db*,*catalog.csv* 
 appear in the projec root. This is done due to the fact that I wanted to inspect their contents
 and properties after each normal run. IF you run a test afterwards, the *setUpBeforeClass()* function
 is triggered which immediatly deletes all .csv,.db and .sql files. The reason for this is that some
-test runs would write the data from *data/feed.xml* into the database all over again. Please keep that in mind when you run tests
+test runs would write the data from *data/feed.xml* into the database all over again. After each test the output of the .csv,.sql and .db file WILL BE DELETED. Therefore you require a seperate run of the normal program to inspect the output. Please keep that in mind when you run tests
