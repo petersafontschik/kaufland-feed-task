@@ -1,0 +1,6 @@
+{
+    "importDataType": "xml",
+    "exportDataType": "sqlite",
+    "sourcePath": "data/feed.xml",
+    "sinkPath": "catalog.db"
+}

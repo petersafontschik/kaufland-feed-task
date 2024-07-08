@@ -1,0 +1,24 @@
+{
+    "name": "safontschik/kaufland-feed-task",
+    "description": "Solution which converts an XML file into a SQLite3 Table + Data",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Safontschik\\Kaufland\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Peter Safontschik",
+            "email": "peter.safontschik@protonmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "monolog/monolog": "^3.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
